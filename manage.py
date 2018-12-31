@@ -12,4 +12,5 @@ if __name__ == '__main__':
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
+    print('http://127.0.0.1:9001/')
     execute_from_command_line(sys.argv)
