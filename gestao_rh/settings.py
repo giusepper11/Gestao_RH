@@ -25,7 +25,7 @@ SECRET_KEY = 'f!v&$$zusmotdfx3#(oks&=%g!8dc-$g57l$7_j_r=llejdtpk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'apps.empresas',
     'apps.funcionarios',
     'apps.departamentos',
+    'apps.documentos',
+    'apps.registro_hora_extra',
 
 ]
 
